@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SiederProgressBar/precache-manifest.e6fc23582128596ee3b9014877d5919e.js"
+  "/SiederProgressBar/precache-manifest.183a9b28aaba261624fc70251591b058.js"
 );
 
 self.addEventListener('message', (event) => {
