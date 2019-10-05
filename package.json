@@ -2,6 +2,7 @@
   "name": "progress-bar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sieder.github.io/SiederProgressBar/",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
