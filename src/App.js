@@ -1,25 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+import styled from 'styled-components'
+
+import ProgressBar from './components/progress-bar/progressbar.component'
+
+const AppWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`
+const ProgressBarContainer = styled.div`
+    width: 300px;
+    margin-top: 200px;
+`
+
+const App = () => {
+  const [percentage, setPercentage] = useState(20)
+  const percentageLimits = (min, value, max) => {
+    return Math.min(Math.max(min, value), max)
+  }
+  const increment = () => setPercentage(percentageLimits(0, percentage + 10, 100))
+  const decrement = () => setPercentage(percentageLimits(0, percentage - 10, 100))
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppWrapper>
+      <ProgressBarContainer>
+        <button onClick={increment}>increase</button>
+        <button onClick={decrement}>decrease</button>
+        <ProgressBar percentage={percentage} />
+      </ProgressBarContainer>
+    </AppWrapper>
   );
 }
 
