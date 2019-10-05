@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SiederProgressBar/static/css/main.34de6062.chunk.css",
+    "main.js": "/SiederProgressBar/static/js/main.400a5a65.chunk.js",
+    "main.js.map": "/SiederProgressBar/static/js/main.400a5a65.chunk.js.map",
+    "runtime-main.js": "/SiederProgressBar/static/js/runtime-main.3474dcca.js",
+    "runtime-main.js.map": "/SiederProgressBar/static/js/runtime-main.3474dcca.js.map",
+    "static/js/2.12f349d8.chunk.js": "/SiederProgressBar/static/js/2.12f349d8.chunk.js",
+    "static/js/2.12f349d8.chunk.js.map": "/SiederProgressBar/static/js/2.12f349d8.chunk.js.map",
+    "index.html": "/SiederProgressBar/index.html",
+    "precache-manifest.e6fc23582128596ee3b9014877d5919e.js": "/SiederProgressBar/precache-manifest.e6fc23582128596ee3b9014877d5919e.js",
+    "service-worker.js": "/SiederProgressBar/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/SiederProgressBar/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3474dcca.js",
+    "static/js/2.12f349d8.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.400a5a65.chunk.js"
+  ]
+}
